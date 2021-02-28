@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &970160880886350467
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 970160880886350466}
+  - component: {fileID: 970160880886350525}
+  m_Layer: 0
+  m_Name: SoundLibrary
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &970160880886350466
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970160880886350467}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &970160880886350525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970160880886350467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddaf652c7a567034da5936eca10265c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  helicopterExplosion: {fileID: 8300000, guid: c6228cb3bac78444d887d0062d3f8dbb, type: 3}
+  interestDestroyBonus: {fileID: 8300000, guid: 77c5f2512ede5e64691a8795a4ad3274,
+    type: 3}
+  uiButtonHover: {fileID: 0}
+  uiButtonClick: {fileID: 8300000, guid: 9ee9c24e829799c47bc8b37ddef6e5fd, type: 3}
+  explotionFat: {fileID: 8300000, guid: aca5e4176b95b4d4b93887d2b8aa3ce2, type: 3}
+  bonusSound: {fileID: 8300000, guid: 8d86cf8314cb739408facd2e56e00b36, type: 3}
+  collision: {fileID: 8300000, guid: 3f5e452bb60c74848a1279bcd7c05c6e, type: 3}
